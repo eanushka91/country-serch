@@ -1,0 +1,49 @@
+img{
+    visibility: unset;
+}
+input[type="text"] {
+    padding: 8px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="button"] {
+    padding: 8px 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+#offitalName, #name, #region, #capital {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+#img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+#tbl {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#tbl th, #tbl td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
